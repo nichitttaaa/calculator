@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+@config "../tailwind.config.js";
+
+* {
+  @apply box-border;
+}
+
+body {
+  width: 100vw;
+  min-height: 100%;
+}
+.page-container {
+  @apply w-screen h-full overflow-auto;
+}
+.centered {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0 auto;
+  height: 100vh; 
+}
+
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
