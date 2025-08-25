@@ -19,6 +19,31 @@ body {
   margin: 0 auto;
   height: 100vh; 
 }
+.button{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(31, 31, 31);
+  color: #29A8FF;
+}
+.blue{
+  background-color: #005DB2;
+}
+.blue0{
+  color: #29A8FF;
+}
+.blue1{
+  background-color: #1991FF;
+  color: white;
+  height: 100px;
+  position: absolute;
+}
+.gray{
+  background-color: #616161;
+  color: #A5A5A5;
+}
 
 
 @layer utilities {
